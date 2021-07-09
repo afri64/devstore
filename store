@@ -81,10 +81,10 @@ update)
 
   echo "updating..."
   cd 
-  rm -r arcstore
+  rm -r devstore
   git clone https://github.com/afri64/devstore/
   cd
-  cd arcstore
+  cd devstore
   bash store
 
 
