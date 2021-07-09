@@ -1,0 +1,99 @@
+#!/bin/bash
+
+clear
+
+pkg install git
+
+clear
+
+echo "   ___________   "
+echo "  //         \\\\"
+echo " //           \\\\ "
+echo ":::::::::::::::::"
+echo ":::::::::::::::::"
+echo ":::::=======:::::"
+echo ":::===========:::"
+echo ":===============:"
+echo "ARC_store v5.0i"
+echo " "
+
+
+    echo "support "
+    echo ":[update]::::::::::::::::ARC_store//"
+    echo "ip checker (ip)"
+    echo "disk cleaner (dc)"
+    echo "website hacker (wh)"
+    echo "wifi hacker[pc only](whf)"
+
+read -p "install :" aninput
+case $aninput in
+
+
+ip)
+
+  clear
+  echo "installing"
+  git clone https://github.com/afri64/ipchecker/
+  cd
+  cd ipchecker
+  bash ipchk
+
+;;
+
+dc)
+
+ clear
+  echo "installing..."
+  cd 
+  git clone https://github.com/afri64/disk/
+  cd
+  cd disk 
+  bash dsc
+
+;;
+
+wh)
+
+  clear
+  echo "installing"
+  cd
+  git clone https://github.com/afri64/arcsite
+  cd 
+  cd arcsite
+  bash awb
+
+;;
+
+whf)
+
+ clear
+ echo "installing"
+ cd
+ git clone https://github.com/afri64/arcwifi
+ cd
+ cd arcwifi
+ clear
+ echo "3 tab harus dibuka manual"
+ 
+;;
+
+update)
+
+  echo "updating..."
+  cd 
+  rm -r arcstore
+  git clone https://github.com/afri64/devstore/
+  cd
+  cd arcstore
+  bash store
+
+
+;;
+
+*)
+
+ echo "awowkwokwokwowk typo:V"
+
+;;
+
+esac
