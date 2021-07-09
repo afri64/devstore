@@ -13,7 +13,7 @@ echo ":::::::::::::::::"
 echo ":::::::::::::::::"
 echo ":::::=======:::::"
 echo ":::===========:::"
-echo "ARC_store v5.2i"
+echo "ARC_store v5.5i"
 echo " "
 
 
@@ -94,6 +94,7 @@ update)
 
 *)
 
+ clear
  echo "awowkwokwokwowk typo:V"
 
 ;;
