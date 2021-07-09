@@ -13,8 +13,7 @@ echo ":::::::::::::::::"
 echo ":::::::::::::::::"
 echo ":::::=======:::::"
 echo ":::===========:::"
-echo ":===============:"
-echo "ARC_store v5.0i"
+echo "ARC_store v5.2i"
 echo " "
 
 
@@ -79,6 +78,9 @@ whf)
 
 update)
 
+
+
+  clear
   echo "updating..."
   cd 
   rm -r devstore
