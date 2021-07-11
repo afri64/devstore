@@ -1,4 +1,11 @@
 #!/bin/bash
+clear
+
+read -p "masukkan kode regestrasi anda : " coders;
+case $coders in
+
+
+arc078)
 
 clear
 
@@ -6,29 +13,20 @@ pkg install git
 
 clear
 
-echo "   ___________   "
-echo "  //         \\\\"
-echo " //           \\\\ "
-echo ":::::::::::::::::"
-echo ":::::::::::::::::"
-echo ":::::=======:::::"
-echo ":::===========:::"
-echo "ARC_store v5.5i"
+echo "ARC_store v6.0i"
 echo " "
+    echo "+ [update]::::::::::::::::ARC_store//"
+    echo "[p1]+ ip checker "
+    echo "[p2]+ disk cleaner "
+    echo "[p3]+ website hacker "
+    echo "[p4]+ wifi hacker(root)"
+    echo " "
 
-
-    echo "support "
-    echo ":[update]::::::::::::::::ARC_store//"
-    echo "ip checker (ip)"
-    echo "disk cleaner (dc)"
-    echo "website hacker (wh)"
-    echo "wifi hacker[pc only](whf)"
-
-read -p "install :" aninput
+read -p "install nomor :" aninput
 case $aninput in
 
 
-ip)
+p1)
 
   clear
   echo "installing"
@@ -39,7 +37,7 @@ ip)
 
 ;;
 
-dc)
+p2)
 
  clear
   echo "installing..."
@@ -51,7 +49,7 @@ dc)
 
 ;;
 
-wh)
+p3)
 
   clear
   echo "installing"
@@ -63,7 +61,7 @@ wh)
 
 ;;
 
-whf)
+p4)
 
  clear
  echo "installing"
@@ -95,8 +93,9 @@ update)
 *)
 
  clear
- echo "awowkwokwokwowk typo:V"
+ echo "[!]massukan pilihan yang valid]"
 
 ;;
 
+esac
 esac
