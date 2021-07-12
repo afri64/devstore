@@ -9,17 +9,16 @@ arc078)
 
 clear
 
-pkg install git
-
 clear
 
-echo "ARC_store v6.0i"
+echo "ARC_store 7"
 echo " "
     echo "+ [update]::::::::::::::::ARC_store//"
     echo "[p1]+ ip checker "
     echo "[p2]+ disk cleaner "
     echo "[p3]+ website hacker "
     echo "[p4]+ wifi hacker(root)"
+    echo "[p5]+ system info "
     echo " "
 
 read -p "install nomor :" aninput
@@ -72,6 +71,17 @@ p4)
  clear
  echo "3 tab harus dibuka manual"
  
+;;
+
+p5)
+  clear
+  echo "downloading..."
+  cd
+  git clone https://github.com/afri64/sp
+  cd
+  cd sp
+  bash spr
+
 ;;
 
 update)
